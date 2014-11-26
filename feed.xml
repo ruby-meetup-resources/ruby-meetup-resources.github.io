@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ruby Meetup Resources</title>
+    <meta name="description" content="helpful resources for running a Ruby meetup">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-152x152.png" />
+
+    <link href='//fonts.googleapis.com/css?family=Lato:400,500,700' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body data-spy="scroll" data-target="#nav">
+    <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+
+    <?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2014-11-26T19:05:00+13:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>robotwars</title>
+    <link rel="alternate" href="http://blog.url.com/2014/11/26/robotwars.html"/>
+    <id>http://blog.url.com/2014/11/26/robotwars.html</id>
+    <published>2014-11-26T19:05:00+13:00</published>
+    <updated>2014-11-26T19:48:47+13:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href="https://github.com/ruby-meetup-resources/robotwars"&gt;Robotwars&lt;/a&gt; gives you a virtual battlefield where you program an AI tank and pit it against your opponents.&lt;/p&gt;
+
+&lt;p&gt;To run this for your own meetup, just point people to the github link above, all the instructions are on it.  The tricky thing is setting up a server
+to host the battles on.  When we ran this in Christchurch (New Zealand) we also had a server &lt;a href="https://github.com/danielfone/chchruby-robotwars-server"&gt;available here&lt;/a&gt;
+however, it's not going to work out of the box.  Other meetups have had success allowing people to just commit their tanks to a common repo and then pulling them in.&lt;/p&gt;
+
+&lt;p&gt;If you happen to want to be a hero and the infrastructure linked to above, make it all Docker'y 'n stuff that would be awesome.  However, as is it's pretty usable&lt;/p&gt;
+
+&lt;p&gt;Here's a video of one of our battles.&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/GceXQZiKQig" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Ruby Warrior</title>
+    <link rel="alternate" href="http://blog.url.com/2014/11/25/ruby-warrior.html"/>
+    <id>http://blog.url.com/2014/11/25/ruby-warrior.html</id>
+    <published>2014-11-25T13:00:00+13:00</published>
+    <updated>2014-11-26T19:48:47+13:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href="https://github.com/ruby-meetup-resources/rubywarrior_scoreboard"&gt;Rubywarrior Scoreboard&lt;/a&gt; is a scoreboard website for ruby-warrior.  If you haven't seen
+ruby-warrior, well, you play a little @ symbol battling its way past slime, archers and wizards, rescuing captives along the way.  Originally created by
+Ryan Bates, it's a great learning tool, and more than enough to keep a meetup occupied for a few hours.&lt;/p&gt;
+
+&lt;p&gt;The website above needs to be used with the &lt;a href="https://github.com/ruby-meetup-resources/scoreboard_rubywarrior"&gt;scoreboard_rubywarrior gem&lt;/a&gt; which wraps
+Ryans gem and allows posting of results to the webserver.  It also posts the code, and runs flog over the code.  This is useful as you can see how other
+(more experienced) people have approached the problem, and see neater ways of performing the same task.&lt;/p&gt;
+
+&lt;p&gt;Hopefully you get as much fun out of it as we did!&lt;/p&gt;
+</content>
+  </entry>
+</feed>
+
+
+    <footer>
+    </footer>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
